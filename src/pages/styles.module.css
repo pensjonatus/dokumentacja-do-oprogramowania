@@ -9,6 +9,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  font-family: var(--fira-font);
 }
 
 @media screen and (max-width: 966px) {
@@ -33,4 +34,27 @@
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+.coverImage {
+  max-width: 300px;
+  margin: auto;
+}
+
+.welcomeOptions {
+  max-width: 600px;
+  margin: auto;
+}
+
+.getStarted {
+  background-color: var(--book-blue);
+}
+
+.getStarted:hover {
+  background-color: var(--book-purple);
+}
+
+.moreOptions {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }

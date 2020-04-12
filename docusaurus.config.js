@@ -1,29 +1,27 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'Dokumentacja do oprogramowania',
+  tagline: 'poradnik dla managerów',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  url: 'https://pensjonatus.github.io',
+  baseUrl: '/dokumentacja-do-oprogramowania/',
+  projectName: 'dokumentacja-do-oprogramowania', // Usually your repo name.
+  organizationName: 'pensjonatus',
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=Fira+Code&display=swap'
+  ],
   themeConfig: {
+    disableDarkMode: true,
     navbar: {
       title: 'My Site',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'logo',
+        src: 'img/book-logo.png',
       },
       links: [
         {
           to: 'docs/przedslowie',
           activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          label: 'Czytaj online',
           position: 'right',
         },
       ],
@@ -32,50 +30,20 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Warto odwiedzić',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Podcast Techwriter Koduje',
+              href: 'https://techwriterkoduje.pl',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'Social',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Blog dla techwriterów',
+              href: 'https://techwriter.pl',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Paweł Kowaluk, Built with Docusaurus.`,
     },
   },
   presets: [
