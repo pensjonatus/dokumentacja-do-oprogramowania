@@ -13,4 +13,5 @@ Bardzo się ucieszyłem kiedy Paweł powiedział mi, że pisze książkę o doku
 Kiedy na początku 2012 rozpoczynałem swoją przygodę z komunikacją techniczną, mogłem tylko pomarzyć o takiej publikacji w języku polskim. Moje życie na pewno byłoby wtedy łatwiejsze, bo na początku trafiłem do firmy gdzie byłem pierwszym i jedynym Technical Writerem. Jak się łatwo domyślić, musiałem od zera i kompleksowo zająć się dokumentację do oprogramowania. Czyli potrzebowałem dokładnie takiej wiedzy jaka zawarta jest w tej książce.
 
 Na koniec dodam, że moja radość z tej publikacji jest tym większa, że Paweł zdecydował się ją udostępnić w ramach darmowej wymiany wiedzy. Ale to w sumie trochę gorzej dla Ciebie, bo teraz już ciężko Ci będzie znaleźć wymówkę, żeby jej nie przeczytać - jest dobra, krótka i za darmo. Chyba nie dało się tego lepiej zrobić.
-Michał Skowron
+
+<div className="signature">Michał Skowron</div>
