@@ -1,6 +1,7 @@
 ---
 id: poslowie
 title: Posłowie
+hide_title: true
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
