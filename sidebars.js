@@ -1,7 +1,7 @@
 module.exports = {
   someSidebar: {
-    intro: ['przedslowie', 'doc2', 'doc3'],
+    intro: ['przedslowie'],
     rozdziały: ['doc2', 'doc3'],
-    'na koniec': ['doc2']
+    'na koniec': ['poslowie', 'podziekowania']
   },
 };

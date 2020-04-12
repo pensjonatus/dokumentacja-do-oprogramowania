@@ -32,9 +32,8 @@ function Home() {
                     'button button--outline button--secondary button--lg',
                     styles.getStarted,
                   )}
-                  to={useBaseUrl('docs/przedslowie')}>
-                  Czytaj online
-            </Link>
+                  to={useBaseUrl('docs/przedslowie')}
+                >Czytaj online</Link>
               </div>
             </div>
           </div>
@@ -43,12 +42,12 @@ function Home() {
       <main>
         <div className="container">
           <div className={classnames('row', styles.moreOptions)}>
-          <div className="col">
-            <h2>Więcej opcji</h2>
-          </div>
-          <div className="col">
-            <p>Więcej opcju już wkrótce</p>
-          </div>
+            <div className="col">
+              <h2>Więcej opcji</h2>
+            </div>
+            <div className="col">
+              <p>Więcej opcju już wkrótce</p>
+            </div>
           </div>
         </div>
       </main>

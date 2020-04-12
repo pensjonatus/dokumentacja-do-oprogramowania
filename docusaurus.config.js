@@ -12,7 +12,7 @@ module.exports = {
   themeConfig: {
     disableDarkMode: true,
     navbar: {
-      title: 'My Site',
+      title: 'Dokumentacja do oprogramowania',
       logo: {
         alt: 'logo',
         src: 'img/book-logo.png',
