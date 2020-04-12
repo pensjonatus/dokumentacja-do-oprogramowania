@@ -42,6 +42,15 @@ module.exports = {
             },
           ],
         },
+        {
+          title: 'Kontakt',
+          items: [
+            {
+              label: 'Autor',
+              href: 'https://www.linkedin.com/in/pawel-kowaluk/'
+            }
+          ]
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Paweł Kowaluk, Built with Docusaurus.`,
     },
