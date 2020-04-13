@@ -46,7 +46,7 @@ function Home() {
               <h2>Więcej opcji</h2>
             </div>
             <div className="col">
-              <p>Więcej opcju już wkrótce. Pewnie ebooki, PDFy, itp.</p>
+              <p>Więcej opcji już wkrótce. Pewnie ebooki, PDFy, itp.</p>
             </div>
           </div>
         </div>
