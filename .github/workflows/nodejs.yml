@@ -27,6 +27,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - run: git config --global user.email "pensjonatus@gmail.com"
+    - run: git config --global user.name "pensjonatus"
     - run: npm ci
     - run: USE_SSH=true GIT_USER=pensjonatus yarn deploy
       env:
