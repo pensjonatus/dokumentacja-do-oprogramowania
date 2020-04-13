@@ -25,9 +25,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: |
-        mkdir -p -- ~/.ssh
+        mkdir -p ~/.ssh
         ssh-keyscan github.com >> ~/.ssh/known_hosts
-        ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+        ssh-agent -- -a $SSH_AUTH_SOCK > /dev/null
         ssh-add - <<< "${{ secrets.PAVKO_SECRET_KEY }}"
     - run: npm ci
     - run: USE_SSH=true GIT_USER=pensjonatus yarn deploy
