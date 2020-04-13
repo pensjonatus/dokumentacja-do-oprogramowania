@@ -23,6 +23,8 @@ jobs:
       with:
         key: ${{ secrets.PAVKO_SECRET_KEY }}
         node-version: ${{ matrix.node-version }}
+    - run: git config --global user.name "pensjonatus"
+    - run: git config user.name
     - run: npm ci
     - run: USE_SSH=true GIT_USER=pensjonatus yarn deploy
       env:
