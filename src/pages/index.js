@@ -46,7 +46,12 @@ function Home() {
               <h2>Więcej opcji</h2>
             </div>
             <div className="col">
-              <p>Więcej opcji już wkrótce. Pewnie ebooki, PDFy, itp.</p>
+              <p>
+                <a href={useBaseUrl('Dokumentacja-do-oprogramowania-poradnik-dla-managerow.pdf')} class="btn btn-warning">Pobierz PDF</a>
+              </p>
+              <p>
+                <a href={useBaseUrl('Dokumentacja-do-oprogramowania-poradnik-dla-managerow.pdf')} class="btn btn-warning">Pobierz PDF</a>
+              </p>
             </div>
           </div>
         </div>
