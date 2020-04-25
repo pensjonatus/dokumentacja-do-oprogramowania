@@ -38,7 +38,7 @@ module.exports = {
           title: 'Warto odwiedzić',
           items: [
             {
-              label: 'Podcast Techwriter Koduje',
+              label: 'Podcast Tech Writer koduje',
               href: 'https://techwriterkoduje.pl',
             },
             {
