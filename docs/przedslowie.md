@@ -6,7 +6,7 @@ hide_title: true
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img alt="Docusaurus with Keytar" src={useBaseUrl('img/przedslowie.png')} />
+<img alt="Przesłowie" src={useBaseUrl('img/przedslowie.png')} />
 
 Bardzo się ucieszyłem kiedy Paweł powiedział mi, że pisze książkę o dokumentacji do oprogramowania. Zanim nawet dowiedziałem się konkretnie o czym była. Od razu wiedziałem, że był to dobry pomysł. Po pierwsze, dlatego, że literatury branżowej w naszym ojczystym języku jest jak na lekarstwo. Po drugie, dlatego, że Paweł jest jedną z garstki znanych mi osób, które mogłyby, a wręcz powinny, napisać taką właśnie książkę. Jego wieloletnie i bogate doświadczenie w komunikacji technicznej, nietuzinkowy zestaw umiejętności oraz unikalne spojrzenie na tę branżę sprawiają, że ta niewielka książka ma w sobie duży ładunek wiedzy. Oczywiście, można by napisać kilka tomów na temat dokumentacji do oprogramowania, ale Paweł wyłuskał dokładnie to co chciałbym wiedzieć jako osoba kompleksowo zajmująca się dokumentacją w organizacji.
 

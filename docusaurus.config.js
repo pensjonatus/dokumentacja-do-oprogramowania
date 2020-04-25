@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   title: 'Dokumentacja do oprogramowania',
   tagline: 'poradnik dla managerów',
@@ -6,6 +8,9 @@ module.exports = {
   baseUrl: '/dokumentacja-do-oprogramowania/',
   projectName: 'dokumentacja-do-oprogramowania', // Usually your repo name.
   organizationName: 'pensjonatus',
+  plugins: [
+    path.resolve(__dirname, './book-plugin/src')
+  ],
   stylesheets: [
     'https://fonts.googleapis.com/css2?family=Fira+Code&display=swap'
   ],
@@ -61,8 +66,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
