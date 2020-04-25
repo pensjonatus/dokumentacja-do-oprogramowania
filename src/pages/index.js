@@ -49,9 +49,6 @@ function Home() {
               <p>
                 <a href={useBaseUrl('Dokumentacja-do-oprogramowania-poradnik-dla-managerow.pdf')} class="btn btn-warning">Pobierz PDF</a>
               </p>
-              <p>
-                <a href={useBaseUrl('Dokumentacja-do-oprogramowania-poradnik-dla-managerow.pdf')} class="btn btn-warning">Pobierz PDF</a>
-              </p>
             </div>
           </div>
         </div>

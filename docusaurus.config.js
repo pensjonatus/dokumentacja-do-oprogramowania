@@ -43,7 +43,7 @@ module.exports = {
             },
             {
               label: 'Blog dla techwriterów',
-              href: 'https://techwriter.pl',
+              href: 'http://techwriter.pl',
             },
           ],
         },
