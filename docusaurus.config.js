@@ -9,12 +9,17 @@ module.exports = {
   projectName: 'dokumentacja-do-oprogramowania', // Usually your repo name.
   organizationName: 'pensjonatus',
   plugins: [
-    path.resolve(__dirname, './book-plugin/src')
+    path.resolve(__dirname, './book-plugin/src'),
+    '@docusaurus/plugin-google-analytics'
   ],
   stylesheets: [
     'https://fonts.googleapis.com/css2?family=Fira+Code&display=swap'
   ],
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'UA-164939288-1',
+      anonymizeIP: true,
+    },
     disableDarkMode: true,
     navbar: {
       title: 'Dokumentacja do oprogramowania',
