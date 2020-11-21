@@ -11,9 +11,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Skup się na odbiorcy.
 
-Wyobraź sobie, że kroki przed nami, to:
+Kroki przed nami, to:
 
-<img alt="Etapy prjektu" src={useBaseUrl('img/diagram-analiza.png')} />
+1. Analiza
+2. Design
+3. Tworzenie
 
 Zatrzymajmy się na tym. Chodzi na razie o to, żeby przejść cykle analizy i
 designu[^1] aż będziemy gotowi zacząć tworzyć. Czyli, między innymi, pisać. Te
