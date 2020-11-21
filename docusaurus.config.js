@@ -8,10 +8,7 @@ module.exports = {
     baseUrl: '/dokumentacja-do-oprogramowania/',
     projectName: 'dokumentacja-do-oprogramowania', // Usually your repo name.
     organizationName: 'pensjonatus',
-    plugins: [
-        path.resolve(__dirname, './book-plugin/src'),
-        require.resolve('docusaurus-lunr-search'),
-    ],
+    plugins: [path.resolve(__dirname, './book-plugin/src')],
     stylesheets: [
         'https://fonts.googleapis.com/css2?family=Fira+Code&display=swap',
     ],
