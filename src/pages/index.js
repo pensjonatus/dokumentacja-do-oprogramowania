@@ -53,27 +53,7 @@ function Home() {
                     </div>
                 </div>
             </header>
-            <main>
-                <div className="container">
-                    <div className={classnames('row', styles.moreOptions)}>
-                        <div className="col">
-                            <h2>Więcej opcji</h2>
-                        </div>
-                        <div className="col">
-                            <p>
-                                <a
-                                    href={useBaseUrl(
-                                        'Dokumentacja-do-oprogramowania-poradnik-dla-managerow.pdf'
-                                    )}
-                                    class="btn btn-warning"
-                                >
-                                    Pobierz PDF
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </main>
+            <main></main>
         </Layout>
     );
 }

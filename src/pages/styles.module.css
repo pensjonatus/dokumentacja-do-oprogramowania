@@ -51,7 +51,9 @@
 }
 
 .getStarted:hover {
-    background-color: var(--book-purple);
+    background-color: black;
+    color: white;
+    border-color: black;
 }
 
 .moreOptions {
