@@ -6837,6 +6837,11 @@ node-libs-browser@^2.2.1:
     util "^0.11.0"
     vm-browserify "^1.0.1"
 
+node-pandoc-promise@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/node-pandoc-promise/-/node-pandoc-promise-0.0.6.tgz#8410de8e42ed966d570ea730a3c9f731a4dc7a1d"
+  integrity sha512-3+8hezyBOaWqUWypHtfv8sPa0Yo0sE/KUvjLN1gm48wrwqG2B45fhgIU73H1adF33FXiXkPeTW3lw5cjicemdg==
+
 node-releases@^1.1.52, node-releases@^1.1.66:
   version "1.1.67"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.67.tgz#28ebfcccd0baa6aad8e8d4d8fe4cbc49ae239c12"
@@ -8116,6 +8121,11 @@ prepend-http@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
+
+prettier@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.0.tgz#8a03c7777883b29b37fb2c4348c66a78e980418b"
+  integrity sha512-yYerpkvseM4iKD/BXLYUkQV5aKt4tQPqaGW6EsZjzyu0r7sVZZNPJW4Y8MyKmicp6t42XUPcBVA+H6sB3gqndw==
 
 pretty-error@^2.1.1:
   version "2.1.2"

@@ -7,45 +7,45 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --book-blue: #00ffff;
-  --book-orange: #c27400;
-  --book-purple: #d400ff;
-  --book-yellow: #ffff00;
-  --ifm-color-primary: var(--book-orange);
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
-  --ifm-code-font-size: 95%;
-  --fira-font: 'Fira Code', monospace;
+    --book-blue: #00ffff;
+    --book-orange: #c27400;
+    --book-purple: #d400ff;
+    --book-yellow: #ffff00;
+    --ifm-color-primary: var(--book-orange);
+    --ifm-color-primary-dark: rgb(33, 175, 144);
+    --ifm-color-primary-darker: rgb(31, 165, 136);
+    --ifm-color-primary-darkest: rgb(26, 136, 112);
+    --ifm-color-primary-light: rgb(70, 203, 174);
+    --ifm-color-primary-lighter: rgb(102, 212, 189);
+    --ifm-color-primary-lightest: rgb(146, 224, 208);
+    --ifm-code-font-size: 95%;
+    --fira-font: 'Fira Code', monospace;
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
+    background-color: rgb(72, 77, 91);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
 }
 
 .signature {
-  text-align: right;
+    text-align: right;
 }
 
 article img {
-  margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 .menu__link--sublist::after {
-  background-size: 1rem 1rem;
+    background-size: 1rem 1rem;
 }
 
 .menu__list-item {
-  font-weight: 400;
-  padding: 4px 0;
+    font-weight: 400;
+    padding: 4px 0;
 }
 
 .menu__link--sublist {
-  font-weight: 700;
+    font-weight: 700;
 }

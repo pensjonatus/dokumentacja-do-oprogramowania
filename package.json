@@ -1,37 +1,40 @@
 {
-  "name": "book-website",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "serve": "docusaurus serve",
-    "clear": "docusaurus clear"
-  },
-  "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.50",
-    "@docusaurus/plugin-google-analytics": "^2.0.0-alpha.37",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.50",
-    "classnames": "^2.2.6",
-    "docusaurus-lunr-search": "^2.1.7",
-    "file-loader": "^6.0.0",
-    "path": "^0.12.7",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "book-website",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "docusaurus": "docusaurus",
+        "start": "docusaurus start",
+        "build": "docusaurus build",
+        "swizzle": "docusaurus swizzle",
+        "deploy": "docusaurus deploy",
+        "serve": "docusaurus serve",
+        "clear": "docusaurus clear",
+        "prettier": "prettier --write ."
+    },
+    "dependencies": {
+        "@docusaurus/core": "^2.0.0-alpha.50",
+        "@docusaurus/plugin-google-analytics": "^2.0.0-alpha.37",
+        "@docusaurus/preset-classic": "^2.0.0-alpha.50",
+        "classnames": "^2.2.6",
+        "docusaurus-lunr-search": "^2.1.7",
+        "file-loader": "^6.0.0",
+        "node-pandoc-promise": "^0.0.6",
+        "path": "^0.12.7",
+        "prettier": "^2.2.0",
+        "react": "^16.8.4",
+        "react-dom": "^16.8.4"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }

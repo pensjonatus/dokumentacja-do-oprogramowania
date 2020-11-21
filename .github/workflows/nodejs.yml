@@ -4,32 +4,31 @@
 name: Deploy page
 
 on:
-  push:
-    branches: [ master ]
+    push:
+        branches: [master]
 
 jobs:
-  build:
+    build:
+        runs-on: ubuntu-latest
 
-    runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                node-version: [12.x]
 
-    strategy:
-      matrix:
-        node-version: [12.x]
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: Install SSH key
-      uses: shimataro/ssh-key-action@v2
-      with:
-        key: ${{ secrets.PAVKO_SECRET_KEY }}
-        known_hosts: ${{ secrets.KNOWN_HOSTS }}
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: git config --global user.email "pensjonatus@gmail.com"
-    - run: git config --global user.name "pensjonatus"
-    - run: npm ci
-    - run: USE_SSH=true GIT_USER=pensjonatus yarn deploy
-      env:
-        CI: true
+        steps:
+            - uses: actions/checkout@v2
+            - name: Install SSH key
+              uses: shimataro/ssh-key-action@v2
+              with:
+                  key: ${{ secrets.PAVKO_SECRET_KEY }}
+                  known_hosts: ${{ secrets.KNOWN_HOSTS }}
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v1
+              with:
+                  node-version: ${{ matrix.node-version }}
+            - run: git config --global user.email "pensjonatus@gmail.com"
+            - run: git config --global user.name "pensjonatus"
+            - run: npm ci
+            - run: USE_SSH=true GIT_USER=pensjonatus yarn deploy
+              env:
+                  CI: true
