@@ -8,7 +8,7 @@
 /* You can override the default Infima variables here. */
 :root {
   --book-blue: #00ffff;
-  --book-orange: #ff9900;
+  --book-orange: #c27400;
   --book-purple: #d400ff;
   --book-yellow: #ffff00;
   --ifm-color-primary: var(--book-orange);
@@ -35,4 +35,17 @@
 
 article img {
   margin-bottom: 3rem;
+}
+
+.menu__link--sublist::after {
+  background-size: 1rem 1rem;
+}
+
+.menu__list-item {
+  font-weight: 400;
+  padding: 4px 0;
+}
+
+.menu__link--sublist {
+  font-weight: 700;
 }
