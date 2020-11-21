@@ -28,7 +28,7 @@ jobs:
                   node-version: ${{ matrix.node-version }}
             - run: git config --global user.email "pensjonatus@gmail.com"
             - run: git config --global user.name "pensjonatus"
-            - run: npm ci
+            - run: yarn
             - run: USE_SSH=true GIT_USER=pensjonatus yarn deploy
               env:
                   CI: true
