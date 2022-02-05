@@ -1,7 +1,6 @@
 ---
 id: opacalnosc-dokumentacji
 title: Opłacalność dokumentacji
-hide_title: true
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

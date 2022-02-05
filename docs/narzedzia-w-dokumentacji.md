@@ -1,7 +1,6 @@
 ---
 id: narzedzia-w-dokumentacji
 title: Narzędzia w dokumentacji
-hide_title: true
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

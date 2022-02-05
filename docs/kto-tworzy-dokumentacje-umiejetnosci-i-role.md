@@ -1,7 +1,6 @@
 ---
 id: kto-tworzy-dokumentacje-umiejetnosci-i-role
 title: Kto tworzy dokumentację (umiejętności i role)
-hide_title: true
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

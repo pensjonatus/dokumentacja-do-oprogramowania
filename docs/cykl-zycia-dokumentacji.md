@@ -1,7 +1,6 @@
 ---
 id: cykl-zycia-dokumentacji
 title: Cykl życia dokumentacji
-hide_title: true
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

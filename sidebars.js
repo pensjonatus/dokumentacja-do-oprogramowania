@@ -1,5 +1,8 @@
-module.exports = {
-    someSidebar: {
+// @ts-check
+
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebars = {
+    book: {
         intro: ['przedslowie'],
         rozdziały: [
             'wprowadzenie',
@@ -15,3 +18,5 @@ module.exports = {
         'na koniec': ['poslowie', 'podziekowania'],
     },
 };
+
+module.exports = sidebars;

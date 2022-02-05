@@ -1,7 +1,6 @@
 ---
 id: wprowadzenie
 title: Wprowadzenie
-hide_title: true
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

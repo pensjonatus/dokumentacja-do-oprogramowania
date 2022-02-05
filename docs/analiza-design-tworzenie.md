@@ -1,7 +1,6 @@
 ---
 id: analiza-design-tworzenie
 title: Analiza, design, tworzenie
-hide_title: true
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

@@ -1,61 +1,42 @@
 import React from 'react';
-import classnames from 'classnames';
+import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
+import styles from './index.module.css';
+import HomepageFeatures from '../components/HomepageFeatures';
 
-function Home() {
-    const context = useDocusaurusContext();
-    const { siteConfig = {} } = context;
+function HomepageHeader() {
+    const { siteConfig } = useDocusaurusContext();
     return (
-        <Layout
-            title={siteConfig.title}
-            description="Darmowa książka o tworzeniu dokumentacji do oprogramowania"
-        >
-            <header
-                className={classnames('hero hero--primary', styles.heroBanner)}
-            >
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm">
-                            <img
-                                className={styles.coverImage}
-                                alt="Okładka książki"
-                                src={useBaseUrl('img/okladka.png')}
-                            />
-                        </div>
-                        <div
-                            className={classnames(
-                                'col-sm',
-                                styles.welcomeOptions
-                            )}
-                        >
-                            <h1 className={styles.bookTitle}>
-                                {siteConfig.title}
-                            </h1>
-                            <p className="hero__subtitle">
-                                {siteConfig.tagline}
-                            </p>
-                            <div className={styles.buttons}>
-                                <Link
-                                    className={classnames(
-                                        'button button--outline button--secondary button--lg',
-                                        styles.getStarted
-                                    )}
-                                    to={useBaseUrl('docs/przedslowie')}
-                                >
-                                    Czytaj online
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
+        <header className={clsx('hero hero--primary', styles.heroBanner)}>
+            <div className="container">
+                <h1 className="hero__title">{siteConfig.title}</h1>
+                <p className="hero__subtitle">{siteConfig.tagline}</p>
+                <div className={styles.buttons}>
+                    <Link
+                        className="button button--secondary button--lg"
+                        to="/docs/przedslowie"
+                    >
+                        Docusaurus Tutorial - 5min ⏱️
+                    </Link>
                 </div>
-            </header>
-            <main></main>
-        </Layout>
+            </div>
+        </header>
     );
 }
 
-export default Home;
+export default function Home() {
+    const { siteConfig } = useDocusaurusContext();
+    return (
+        <Layout
+            title={siteConfig.title}
+            description="Poradnik dla managerów projektów software'owych, którzy chcą mieć dobrą dokumentację dla użytkownika"
+        >
+            <HomepageHeader />
+            <main>
+                <HomepageFeatures />
+            </main>
+        </Layout>
+    );
+}

@@ -1,7 +1,6 @@
 ---
 id: po-co-nam-dokumentacja
 title: Po co nam dokumentacja?
-hide_title: true
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

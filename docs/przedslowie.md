@@ -1,7 +1,6 @@
 ---
 id: przedslowie
 title: Przedsłowie
-hide_title: true
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

@@ -1,7 +1,6 @@
 ---
 id: zespo-dokumentacyjny-w-firmie
 title: Zespół dokumentacyjny w firmie
-hide_title: true
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

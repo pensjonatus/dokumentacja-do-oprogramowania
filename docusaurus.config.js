@@ -1,80 +1,82 @@
-const path = require('path');
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
 
-module.exports = {
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
     title: 'Dokumentacja do oprogramowania',
-    tagline: 'poradnik dla managerów',
-    favicon: 'img/favicon.ico',
+    tagline: 'Poradnik dla managerów',
     url: 'https://pensjonatus.github.io',
     baseUrl: '/dokumentacja-do-oprogramowania/',
+    onBrokenLinks: 'throw',
+    onBrokenMarkdownLinks: 'throw',
+    favicon: 'img/favicon.ico',
+    organizationName: 'pensjonatus', // Usually your GitHub org/user name.
     projectName: 'dokumentacja-do-oprogramowania', // Usually your repo name.
-    organizationName: 'pensjonatus',
-    plugins: [path.resolve(__dirname, './book-plugin/src')],
-    stylesheets: [
-        'https://fonts.googleapis.com/css2?family=Fira+Code&display=swap',
-    ],
-    themeConfig: {
-        googleAnalytics: {
-            trackingID: 'UA-164939288-1',
-            anonymizeIP: true,
-        },
-        colorMode: {
-            disableSwitch: true,
-        },
-        navbar: {
-            title: 'Dokumentacja do oprogramowania',
-            logo: {
-                alt: 'logo',
-                src: 'img/book-logo.png',
-            },
-            items: [
-                {
-                    to: 'docs/przedslowie',
-                    activeBasePath: 'docs',
-                    label: 'Czytaj online',
-                    position: 'right',
-                },
-            ],
-        },
-        footer: {
-            style: 'dark',
-            links: [
-                {
-                    title: 'Warto odwiedzić',
-                    items: [
-                        {
-                            label: 'Podcast Tech Writer koduje',
-                            href: 'https://techwriterkoduje.pl',
-                        },
-                        {
-                            label: 'Blog dla techwriterów',
-                            href: 'http://techwriter.pl',
-                        },
-                    ],
-                },
-                {
-                    title: 'Kontakt',
-                    items: [
-                        {
-                            label: 'Autor',
-                            href: 'https://www.linkedin.com/in/pawel-kowaluk/',
-                        },
-                    ],
-                },
-            ],
-            copyright: `Copyright © ${new Date().getFullYear()} Paweł Kowaluk, Built with Docusaurus.`,
-        },
-    },
+
     presets: [
         [
-            '@docusaurus/preset-classic',
-            {
+            'classic',
+            /** @type {import('@docusaurus/preset-classic').Options} */
+            ({
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
+                    // Please change this to your repo.
+                    editUrl:
+                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
-            },
+            }),
         ],
     ],
+
+    themeConfig:
+        /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+        ({
+            navbar: {
+                title: 'Dokumentacja do oprogramowania',
+                logo: {
+                    alt: 'logo',
+                    src: 'img/book-logo.png',
+                },
+            },
+            footer: {
+                style: 'dark',
+                links: [
+                    {
+                        title: 'Warto odwiedzić',
+                        items: [
+                            {
+                                label: 'Podcast Tech Writer koduje',
+                                href: 'https://techwriterkoduje.pl',
+                            },
+                            {
+                                label: 'Blog dla techwriterów',
+                                href: 'http://techwriter.pl',
+                            },
+                        ],
+                    },
+                    {
+                        title: 'Kontakt',
+                        items: [
+                            {
+                                label: 'Autor',
+                                href: 'https://www.linkedin.com/in/pawel-kowaluk/',
+                            },
+                        ],
+                    },
+                ],
+                copyright: `Copyright © ${new Date().getFullYear()} Paweł Kowaluk, Built with Docusaurus.`,
+            },
+            prism: {
+                theme: lightCodeTheme,
+                darkTheme: darkCodeTheme,
+            },
+        }),
 };
+
+module.exports = config;

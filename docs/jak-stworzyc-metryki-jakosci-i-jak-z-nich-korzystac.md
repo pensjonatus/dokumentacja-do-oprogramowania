@@ -1,7 +1,6 @@
 ---
 id: jak-stworzyc-metryki-jakosci-i-jak-z-nich-korzystac
 title: Jak stworzyć metryki jakości i jak z nich korzystać
-hide_title: true
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
