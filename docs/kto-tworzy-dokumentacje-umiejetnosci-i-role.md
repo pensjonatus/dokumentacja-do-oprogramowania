@@ -3,10 +3,6 @@ id: kto-tworzy-dokumentacje-umiejetnosci-i-role
 title: Kto tworzy dokumentację (umiejętności i role)
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-<img alt="Po co nam dokumentacja?" src={useBaseUrl('img/kto-tworzy.png')} />
-
 W fazie wdrożenia, zabieramy się za pisanie (czy też tworzenie treści w innej
 formie). Czujemy trochę, że pisanie to sporo pracy, dlatego zanim na dobre się
 tym zajmiemy, zastanówmy się kto powinien zajmować się tworzeniem dokumentacji.

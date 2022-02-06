@@ -3,8 +3,8 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
     book: {
-        intro: ['przedslowie'],
-        rozdziały: [
+        Intro: ['przedslowie'],
+        Rozdziały: [
             'wprowadzenie',
             'po-co-nam-dokumentacja',
             'opacalnosc-dokumentacji',
@@ -15,7 +15,7 @@ const sidebars = {
             'cykl-zycia-dokumentacji',
             'narzedzia-w-dokumentacji',
         ],
-        'na koniec': ['poslowie', 'podziekowania'],
+        'Na koniec': ['poslowie', 'podziekowania'],
     },
 };
 

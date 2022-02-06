@@ -3,10 +3,6 @@ id: po-co-nam-dokumentacja
 title: Po co nam dokumentacja?
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-<img alt="Po co nam dokumentacja?" src={useBaseUrl('img/po-co-doku.png')} />
-
 Dokumentacja jest dla użytkownika.
 
 Jeśli to wiesz i nie potrzebujesz, żebym Cię przekonywał, przejdź do następnego

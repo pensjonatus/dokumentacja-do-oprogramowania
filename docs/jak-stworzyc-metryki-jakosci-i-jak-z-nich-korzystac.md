@@ -3,10 +3,6 @@ id: jak-stworzyc-metryki-jakosci-i-jak-z-nich-korzystac
 title: Jak stworzyć metryki jakości i jak z nich korzystać
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-<img alt="Po co nam dokumentacja?" src={useBaseUrl('img/metryki.png')} />
-
 Jakość powinno się dać zmierzyć po to, żeby móc ją utrzymać lub podnieść. Ale
 jak mierzyć jakość dzieła sztuki (bo takim właśnie dziełem jest dokumentacja).
 No dobra, to był żart, ale jednak jest w tym stwierdzeniu ziarno prawdy.

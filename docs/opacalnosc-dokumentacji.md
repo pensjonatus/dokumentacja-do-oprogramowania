@@ -3,10 +3,6 @@ id: opacalnosc-dokumentacji
 title: Opłacalność dokumentacji
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-<img alt="Po co nam dokumentacja?" src={useBaseUrl('img/oplacalnosc.png')} />
-
 Skoro robimy coś w pracy, robimy to za pieniądze. Dlatego musimy sobie obliczyć
 Return on Investment (ROI). Innymi słowy, musimy ustalić jakim nakładem pracy
 opłaca się tworzyć dokumentację. Może się okazać, że jeszcze nie mamy pieniędzy,

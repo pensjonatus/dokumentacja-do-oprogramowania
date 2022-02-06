@@ -3,10 +3,6 @@ id: cykl-zycia-dokumentacji
 title: Cykl życia dokumentacji
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-<img alt="Po co nam dokumentacja?" src={useBaseUrl('img/cykl-zycia.png')} />
-
 Oprócz cyklu w jakim nasza dokumentacja jest wytwarzana, istnieje jeszcze
 większy cykl, który określa jej cały żywot, od poczęcia aż po grób i życie
 pozagrobowe.

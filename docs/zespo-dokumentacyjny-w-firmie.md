@@ -3,10 +3,6 @@ id: zespo-dokumentacyjny-w-firmie
 title: Zespół dokumentacyjny w firmie
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-<img alt="Po co nam dokumentacja?" src={useBaseUrl('img/zespol.png')} />
-
 Zespół zajmujący się dokumentacją, to grupa ludzi, którzy znają się na pisaniu i
 publikowaniu. Potrafią zrekrutować nowe osoby, bo wiedzą gdzie szukać podobnych
 sobie. Mogą też utrzymywać swoje wyspecjalizowane narzędzia.

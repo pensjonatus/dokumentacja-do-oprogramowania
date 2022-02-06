@@ -3,10 +3,6 @@ id: przedslowie
 title: Przedsłowie
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-<img alt="Przesłowie" src={useBaseUrl('img/przedslowie.png')} />
-
 Bardzo się ucieszyłem kiedy Paweł powiedział mi, że pisze książkę o dokumentacji
 do oprogramowania. Zanim nawet dowiedziałem się konkretnie o czym była. Od razu
 wiedziałem, że był to dobry pomysł. Po pierwsze, dlatego, że literatury

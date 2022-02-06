@@ -3,10 +3,6 @@ id: narzedzia-w-dokumentacji
 title: Narzędzia w dokumentacji
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-<img alt="Po co nam dokumentacja?" src={useBaseUrl('img/narzedzia.png')} />
-
 ## Model “tradycyjny”
 
 W tym modelu stosuje się narzędzia ściśle związane ze światem komunikacji

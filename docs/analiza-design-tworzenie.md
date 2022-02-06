@@ -3,11 +3,6 @@ id: analiza-design-tworzenie
 title: Analiza, design, tworzenie
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-<img alt="Analiza, design, tworzenie" src={useBaseUrl('img/analiza-design.png')}
-/>
-
 Skup się na odbiorcy.
 
 Kroki przed nami, to:

@@ -3,11 +3,6 @@ id: wprowadzenie
 title: Wprowadzenie
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-<img alt="Analiza, design, tworzenie" src={useBaseUrl('img/wprowadzenie.png')}
-/>
-
 ## Dla kogo jest ta książka?
 
 Ta książka została napisana z myślą o osobach odpowiedzialnych za dokumentację w
