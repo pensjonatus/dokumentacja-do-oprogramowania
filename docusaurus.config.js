@@ -12,7 +12,7 @@ const config = {
     baseUrl: '/dokumentacja-do-oprogramowania/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'throw',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/favicon-ddo.ico',
     organizationName: 'pensjonatus', // Usually your GitHub org/user name.
     projectName: 'dokumentacja-do-oprogramowania', // Usually your repo name.
 
