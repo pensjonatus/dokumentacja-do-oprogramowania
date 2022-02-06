@@ -86,10 +86,18 @@ Jeżeli tak, to masz szczęście. Korzystaj z tego!
 ## Zrozumiały koszt
 
 Ponieważ tak trudno jest obliczyć zwrot z inwestycji w dokumentację, wiele firm
-traktuje ją jako stały koszt wytwarzania oprogramowania. Musisz napisać kod,
-musisz przetestować aplikację i musisz napisać dokumentację.
+traktuje ją jako stały koszt wytwarzania oprogramowania. To tak jakby ktoś
+powiedział: "Musisz napisać kod, musisz przetestować aplikację, więc naturalnie
+**musisz** napisać dokumentację." Innymi słowy, dokumentacja to "zrozumiały
+koszt" i nie musisz uzasadniać jej istnienia.
 
-W takich sytuacjach gra toczy się o utrzymanie rozsądnej równowagi zysków i
-strat. Ważne staje się wtedy kto pisze dokumentację (czy robi to programista?),
-oraz ile jej jest. Ale tym zajmiemy się później. Najpierw musimy wiedzieć co
-trzeba pisać.
+Ale negatywną konsekwencją takiego podejścia jest to, że firma nie chce podnosić
+monetarnego kosztu wytwarzania dokumentacji, który najłatwiej widać w postaci
+kosztów materiałów i kosztów osobowych. W takich sytuacjach realny koszt
+nie-wytwarzania dokumentacji (np. utrata potencjalnego klienta, niepotrzebne
+koszty supportu) staje się kosztem ukrytym.
+
+Jeżeli dochodzi do takiej sytuacji w firmie, powinno się walczyć o utrzymanie
+rozsądnej równowagi zysków i strat. Ważne staje się wtedy kto pisze dokumentację
+(czy robi to programista?), oraz ile jej jest. Ale tym zajmiemy się później.
+Najpierw musimy wiedzieć co trzeba pisać.
