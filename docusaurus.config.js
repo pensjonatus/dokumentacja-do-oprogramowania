@@ -41,7 +41,7 @@ const config = {
                 title: 'Dokumentacja do oprogramowania',
                 logo: {
                     alt: 'logo',
-                    src: 'img/book-logo.png',
+                    src: 'img/DDO.png',
                 },
             },
             footer: {
