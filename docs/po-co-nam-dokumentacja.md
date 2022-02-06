@@ -5,8 +5,8 @@ title: Po co nam dokumentacja?
 
 Dokumentacja jest dla użytkownika.
 
-Jeśli to wiesz i nie potrzebujesz, żebym Cię przekonywał, przejdź do następnego
-rozdziału.
+Jeśli to wiesz i nie potrzebujesz, żebym Cię przekonywał, przejdź do
+[następnego rozdziału](./opacalnosc-dokumentacji.md).
 
 Jeżeli uważasz, że dokumentacja jest niepotrzebna, to być może masz rację. Nie
 zawsze jest potrzebna. Jednak zachęcam Cię do czytania dalej.
@@ -23,8 +23,9 @@ sprawa. Ale tutaj piszemy o **dokumentacji użytkownika**, czyli takiej, która
 Jeżeli Twoja aplikacja, jest wystarczająco prosta i ma dobrze zaprojektowany
 interfejs, to prawdopodobnie nie potrzebuje dokumentacji. Ale jeżeli:
 
--   Tworzysz coś bardziej skomplikowanego, gdzie jest wiele możliwych
-    scenariuszy użycia i odkrycie ich wszystkich wymaga znajomości aplikacji
+-   Tworzysz coś bardziej skomplikowanego (np. aplikację "enterprise"), gdzie
+    jest wiele możliwych scenariuszy użycia i odkrycie ich wszystkich wymaga
+    znajomości aplikacji
 -   Tworzysz coś, czego używa się pisząc kod
 -   Tworzysz intuicyjną aplikację dla konsumentów, ale zarabiasz na firmach,
     które jej używają
@@ -70,9 +71,6 @@ albo “Jak napisać powieść w Wordzie”. (O nagłówkach powiemy sobie póź
 
 Przykładem tutaj może być dowolna implementacja Domain Object Model.
 
-Jeżeli to zbyt techniczne dla Ciebie, pomiń dwa następne akapity i czytaj dalej
-od strzałki.
-
 Wyobraź sobie, że nic nie wiem o tym jak działa DOM i muszę dojść do tego z
 opisów klas i metod. Chcę przejść przez dokument XML i zamienić taga “data
 wydania” na atrybut. Zaczynam od wczytania dokumentu, potem próbuję znaleźć
@@ -87,8 +85,6 @@ metod, które pojawiają się w wynikach Google jako **pierwsze**, co może znac
 
 Jako twórca tej implementacji DOM pewnie chciałbyś, żebym skorzystał z
 najnowszych funkcjonalności, ale skąd ja mogę o nich wiedzieć?
-
-⬇
 
 Jeżeli tworzysz bibliotekę, framework, lub API, to na pewno rozumiesz dlaczego
 dokumentacja jest NIEODZOWNA. Nikt nie zgadnie jaki kod pisać, żeby działało.
